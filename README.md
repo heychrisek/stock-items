@@ -29,3 +29,13 @@ Component acceptance tests are available for `StockItemsList` and `StockItemsFor
 ![list.png](https://s12.postimg.org/f5j11b3el/list.png)
 
 ![form.png](https://s12.postimg.org/t9ew9pam5/form.png)
+
+## Roadmap
+
+Future improvements include:
+
+ - [ ] More robust form validation (coerce price string to number)
+ - [ ] Cross-browser testing (e.g., [working date widget in Firefox](http://caniuse.com/#search=date))
+ - [ ] 100% test coverage (test internal change handlers for `StockItemsForm`)
+ - [ ] Table sorting/filtering by column and value
+ - [ ] ...
