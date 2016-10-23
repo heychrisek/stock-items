@@ -2,7 +2,7 @@
 
 This is a business inventory front end, built using React components and Redux state management. It enables a business owner to view all existing stock items and add new items to the inventory.
 
-The project is simply a front end (non-persistent) implementation, but the addition of `redux-thunk` and some async actions would enable it to persist and hydrate with a remote server.
+The project is simply a front end implementation (non-persistent), but the addition of `redux-thunk` and async actions would enable it to persist and hydrate with a remote server.
 
 ![add_item.gif](https://s12.postimg.org/i8jr4oid9/add_item.gif)
 
@@ -16,7 +16,7 @@ The project is styled using flexbox and is responsive at small screen sizes usin
 
 ## Usage
 
-Clone this repository and run `npm run start`. For the production build, run `npm run build`.
+Clone this repository and run `npm install`, then run `npm run start`. For the production build, run `npm run build`.
 
 ## Tests
 
