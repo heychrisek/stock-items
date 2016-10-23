@@ -14,6 +14,23 @@ The project is styled using flexbox and is responsive at small screen sizes usin
 
 ![responsive.gif](https://s12.postimg.org/axo8sk1z1/responsive.gif)
 
+## Component Details
+
+The component hierarchy is as follows:
+
+```
+                   App (wrapped in `Provider`)
+                    |
+                    |
+            StockItemsContainer (`connect`ed to `store` using `react-redux`)
+                    |
+                    |
+      |---------------------------|
+StockItemsForm              StockItemsList
+```
+
+`StockItemsContainer` takes `stockItems` and `actions` props (see PropTypes), and `StockItemsForm` takes an `addItem` callback function as its only prop. `StockItemsList` is a functional stateless component that takes an array of items and renders it as a list.
+
 ## Usage
 
 Clone this repository and run `npm install`, then run `npm run start`. For the production build, run `npm run build`.
