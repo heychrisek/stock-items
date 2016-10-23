@@ -1,0 +1,46 @@
+.StockItemsContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.StockItemsContainer-Content {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.StockItemsContainer-Header {
+  background: #121D2C;
+  color: #fff;
+}
+
+.StockItemsContainer-Header h1 {
+  font-family: Roboto Slab, serif;
+  font-weight: 300;
+}
+
+.StockItemsContainer-List {
+  width: 75%;
+}
+
+.StockItemsContainer-Form {
+  background: #75B691;
+  width: 25%;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .StockItemsContainer-Content {
+    flex-direction: column;
+  }
+
+  .StockItemsContainer-List {
+    width: 100%;
+  }
+
+  .StockItemsContainer-Form {
+    width: 100%;
+  } 
+}

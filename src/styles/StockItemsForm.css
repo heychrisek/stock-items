@@ -1,0 +1,24 @@
+.StockItemsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.StockItemsForm-button {
+  display: flex;
+  justify-content: center;
+}
+
+.StockItemsForm-inputGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.StockItemsForm-inputGroup label,
+.StockItemsForm-inputGroup input,
+.StockItemsForm-inputGroup textarea {
+  display: flex;
+  margin: 5px 20px;
+  width: 50%;
+  align-self: center;
+}

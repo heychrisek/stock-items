@@ -1,0 +1,18 @@
+.StockItemsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.StockItemsList-header,
+.StockItemsList-item {
+  display: flex;
+  flex-direction: row;
+}
+.StockItemsList-header span,
+.StockItemsList-item span {
+  width: 20%;
+}
+
+.StockItemsList .StockItemsList-item:nth-child(odd) {
+  background: #9CB4C3;
+}
